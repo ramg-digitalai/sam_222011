@@ -1,3 +1,7 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:19 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Templates
@@ -6,6 +10,7 @@ metadata:
   home: Digital.ai - Official/Workflows/ArgoCD
 spec:
 - template: ArgoCD delete application
+  description: Delete Application in ArgoCD.
   scheduledStartDate: 2023-04-27T18:30:00+05:30
   dueDate: 2023-04-27T19:30:00+05:30
   phases:
@@ -58,9 +63,8 @@ spec:
       \ is empty, release/workflow execution folder will be used"
   disableNotifications: true
   author: Digital.ai
-  description: Delete Application in ArgoCD.
   logo:
     type: xlrelease.TemplateLogo
     contentType: image/png
-    file: !file "template-logo/01d81f95a92b5ebbae77081f9988c520aa79d73e/argocd.svg"
+    file: !file "template-logo/294bb337f3c01e140e17f349ae87bd505055411e/argocd.svg"
   defaultTargetFolder: Digital.ai - Official/Workflow Executions

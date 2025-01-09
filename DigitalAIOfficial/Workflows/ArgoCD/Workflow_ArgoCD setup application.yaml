@@ -1,3 +1,7 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:18 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Templates
@@ -251,8 +255,6 @@ spec:
       managedBy: "${managedBy}"
       environmentTag: "${environmentTag}"
       applicationReference: "${clusterUrl}"
-      deleteWorkflowId: "Delete Application in ArgoCD"
-      updateWorkflowId: "Update Application in ArgoCD"
       variableMapping:
         pythonScript.managedApplicationId: "${managedApplicationId}"
         pythonScript.connectionServer: "${argoCDApiServer}"
@@ -551,5 +553,5 @@ spec:
   logo:
     type: xlrelease.TemplateLogo
     contentType: image/png
-    file: !file "template-logo/3da925ba0f190b8e450edd130822ee9edb822652/argocd.svg"
+    file: !file "template-logo/d2a28c9e0bee8b9a4c9e8628be10b987aa87b9f2/argocd.svg"
   defaultTargetFolder: Digital.ai - Official/Workflow Executions

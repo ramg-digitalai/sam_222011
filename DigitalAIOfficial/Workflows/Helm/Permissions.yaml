@@ -1,0 +1,30 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:18 IST 2025
+
+---
+apiVersion: xl-release/v1
+kind: Permissions
+metadata:
+  path: Workflows/Helm
+  home: Digital.ai - Official/Workflows/Helm
+spec:
+- directory: "."
+  teams:
+  - name: Viewer
+    roles:
+    - Authenticated Users
+    permissions:
+    - folder#view
+    - template#view
+  - name: Template Owner
+    permissions:
+    - template#edit_failure_handler
+    - template#edit_precondition
+    - template#lock_task
+  - name: Release Admin
+    permissions:
+    - release#edit_failure_handler
+    - release#edit_precondition
+    - release#lock_task
+  - name: Folder Owner

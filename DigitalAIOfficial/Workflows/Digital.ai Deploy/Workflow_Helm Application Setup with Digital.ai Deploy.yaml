@@ -1,3 +1,7 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:18 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Templates
@@ -288,8 +292,8 @@ spec:
   kind: WORKFLOW
   categories:
   - Application onboarding
-  - Cloud & Container
   - Application Life Cycle Management
+  - Cloud & Container
   - Serverless
   variables:
   - type: xlrelease.StringVariable

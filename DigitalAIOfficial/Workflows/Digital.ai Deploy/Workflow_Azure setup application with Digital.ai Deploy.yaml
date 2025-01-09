@@ -1,3 +1,7 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:18 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Templates
@@ -226,5 +230,5 @@ spec:
   logo:
     type: xlrelease.TemplateLogo
     contentType: image/svg+xml
-    file: !file "template-logo/97662a62108c2b1e1875c8e18f6d1c72a013d33c/deploy.svg"
+    file: !file "template-logo/e937292a6e97a39f3288f478e55578b7efff9ec5/deploy.svg"
   defaultTargetFolder: Digital.ai - Official/Workflow Executions

@@ -1,3 +1,7 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:19 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Templates
@@ -5,7 +9,7 @@ metadata:
   path: Workflows/AWS
   home: Digital.ai - Official/Workflows/AWS
 spec:
-- template: AWS Lambda create function using S3 zip file 
+- template: AWS Lambda create function using S3 zip file
   description: Workflow provides the steps that create an AWS Lambda Function using
     S3 zip file
   scheduledStartDate: 2023-09-20T09:00:00+05:30
@@ -100,5 +104,5 @@ spec:
   logo:
     type: xlrelease.TemplateLogo
     contentType: image/svg+xml
-    file: !file "template-logo/451b3d960f1d50cbf645a535c781edf32783b4e1/aws.svg"
+    file: !file "template-logo/f28a0ba7c764636bd747c3a1611bfa2f31675967/aws.svg"
   defaultTargetFolder: Digital.ai - Official/Workflow Executions

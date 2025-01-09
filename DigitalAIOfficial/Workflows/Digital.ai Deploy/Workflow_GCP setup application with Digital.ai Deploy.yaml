@@ -1,3 +1,7 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:19 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Templates
@@ -171,8 +175,8 @@ spec:
   kind: WORKFLOW
   categories:
   - Application onboarding
-  - Cloud & Container
   - Application Life Cycle Management
+  - Cloud & Container
   variables:
   - type: xlrelease.StringVariable
     key: environmentName
@@ -247,5 +251,5 @@ spec:
   logo:
     type: xlrelease.TemplateLogo
     contentType: image/svg+xml
-    file: !file "template-logo/1acf43f120046fcbeca6ce60329683dc10bb741d/deploy.svg"
+    file: !file "template-logo/a8eb104385bb88959e385eec7b22eb96943650e7/deploy.svg"
   defaultTargetFolder: Digital.ai - Official/Workflow Executions

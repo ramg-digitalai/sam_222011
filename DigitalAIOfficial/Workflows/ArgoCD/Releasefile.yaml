@@ -1,10 +1,15 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:19 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Import
 spec:
   imports:
-  - Workflow_ArgoCD delete application.yaml
+  - Permissions.yaml
   - Workflow_Argo Rollouts install.yaml
+  - Workflow_ArgoCD delete application.yaml
   - Workflow_ArgoCD install.yaml
   - Workflow_ArgoCD setup application.yaml
   - Workflow_ArgoCD update application.yaml

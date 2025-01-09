@@ -1,3 +1,7 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:19 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Templates
@@ -168,5 +172,5 @@ spec:
   logo:
     type: xlrelease.TemplateLogo
     contentType: image/png
-    file: !file "template-logo/ce5e2c55c1d65057d9d445256baef6fceef4e644/argocd.svg"
+    file: !file "template-logo/5a53e5d8988b3578428f22a4d91a98666309576c/argocd.svg"
   defaultTargetFolder: Digital.ai - Official/Workflow Executions

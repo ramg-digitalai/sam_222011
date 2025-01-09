@@ -1,11 +1,16 @@
+# Exported from:        http://DESKTOP-9S08TE1:5516/
+# Release version:      24.1.2
+# Date created:         Thu Jan 09 18:03:18 IST 2025
+
 ---
 apiVersion: xl-release/v1
 kind: Import
 spec:
   imports:
+  - Permissions.yaml
   - Workflow_AWS SecretsManager create secret.yaml
   - Workflow_AWS SecretsManager delete secret.yaml
+  - Workflow_AWS SecretsManager update secret.yaml
   - Workflow_Azure KeyVault create secret.yaml
   - Workflow_Azure KeyVault delete secret.yaml
-  - Workflow_AWS SecretsManager update secret.yaml
   - Workflow_Azure KeyVault update secret.yaml
