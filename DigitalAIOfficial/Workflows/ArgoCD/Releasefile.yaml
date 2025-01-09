@@ -1,0 +1,10 @@
+---
+apiVersion: xl-release/v1
+kind: Import
+spec:
+  imports:
+  - Workflow_ArgoCD delete application.yaml
+  - Workflow_Argo Rollouts install.yaml
+  - Workflow_ArgoCD install.yaml
+  - Workflow_ArgoCD setup application.yaml
+  - Workflow_ArgoCD update application.yaml
